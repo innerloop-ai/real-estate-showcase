@@ -1,18 +1,17 @@
 ﻿import React from 'react';
 
-// YouTube video ID for a real estate tour
-const youtubeVideoId = "3YFpmkt4e2c"; // Real estate showcase video
-
 const VideoSection: React.FC = () => {
   return (
     <div className="video-section">
       <div className="video-container">
-        <iframe
-          src={`https://www.youtube.com/embed/${youtubeVideoId}`}
-          title="YouTube video player"
+        <iframe 
+          allowFullScreen 
+          width="760" 
+          height="515" 
+          src="https://play.innerloop.stream/playersvc/ins-share/cu-trwOmMszaQIPUrYZpUapc"
+          title="Zillow Are We Doing This"
           frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; encrypted-media"
         ></iframe>
       </div>
     </div>

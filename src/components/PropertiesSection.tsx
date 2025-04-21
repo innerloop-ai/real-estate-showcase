@@ -12,7 +12,7 @@ const properties: Property[] = [
     bedrooms: 2,
     bathrooms: 2,
     area: 1200,
-    image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    image: "https://play.innerloop.stream/playersvc/ins-share/cu-Rx97YiubigU29e34iJl64"
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const properties: Property[] = [
     bedrooms: 5,
     bathrooms: 4,
     area: 3500,
-    image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    image: "https://play.innerloop.stream/playersvc/ins-share/cu-dI29k0id7Zj4QyhwD0OKD"
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const properties: Property[] = [
     bedrooms: 3,
     bathrooms: 1,
     area: 1000,
-    image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    image: "https://play.innerloop.stream/playersvc/ins-share/cu-h4hz2iW2lz1GxY2XqW4wk"
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const properties: Property[] = [
     bedrooms: 1,
     bathrooms: 1,
     area: 950,
-    image: "https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    image: "https://play.innerloop.stream/playersvc/ins-share/cu-sE5mK7BSIcG0Gpsx9nGYA"
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const properties: Property[] = [
     bedrooms: 4,
     bathrooms: 3,
     area: 2200,
-    image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    image: "https://play.innerloop.stream/playersvc/ins-share/cu-B6CK-9OJKtsqXyQRUE5CW"
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const properties: Property[] = [
     bedrooms: 3,
     bathrooms: 2,
     area: 1800,
-    image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    image: "https://play.innerloop.stream/playersvc/ins-share/cu-4Lsb4Q0j3OZMm92eYq242"
   }
 ];
 
