@@ -1,4 +1,4 @@
-﻿# Real Estate Showcase - React Application
+﻿# PropertyPulse - React Application
 
 A React application that showcases real estate properties with a featured property tour video.
 

@@ -9,7 +9,7 @@ const App: React.FC = () => {
       <header>
         <div className="container">
           <div className="header-content">
-            <h1>Real Estate <span className="highlight">Showcase</span></h1>
+            <h1>Property<span className="highlight">Pulse</span></h1>
             <nav className="main-nav">
               <ul>
                 <li><a href="#" className="active">Home</a></li>

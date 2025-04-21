@@ -1,7 +1,7 @@
 {
   "name": "realstate",
   "version": "1.0.0",
-  "description": "Real Estate Showcase React Application",
+  "description": "PropertyPulse React Application",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --mode production",

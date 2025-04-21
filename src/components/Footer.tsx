@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>Real Estate Showcase</h3>
+            <h3>PropertyPulse</h3>
             <p>
               Find your dream property with our curated selection of premium real estate 
               in the most desirable locations.
@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
               <a href="#" className="social-link">LinkedIn</a>
             </div>
           </div>
-          
+
           <div className="footer-section">
             <h3>Quick Links</h3>
             <ul className="footer-links">
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-          
+
           <div className="footer-section">
             <h3>Contact Us</h3>
             <ul className="contact-info">
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
               <li>Hours: Mon-Fri 9am-5pm</li>
             </ul>
           </div>
-          
+
           <div className="footer-section">
             <h3>Newsletter</h3>
             <p>Subscribe to our newsletter for the latest property updates.</p>
@@ -49,9 +49,9 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Real Estate Showcase. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} PropertyPulse. All rights reserved.</p>
         </div>
       </div>
     </footer>
