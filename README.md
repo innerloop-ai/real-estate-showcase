@@ -1,24 +1,30 @@
-﻿# PropertyPulse - React Application
+﻿# 🔗 PropertyPulse - InnerLoop Integration
 
-A React application that showcases real estate properties with a featured property tour video.
+## Project Overview
+
+This project demonstrates how to embed InnerLoop images and videos into a real estate web application. It showcases how media content can be seamlessly integrated within a modern property listing website, allowing users to explore virtual property tours and browse high-quality images.
 
 ## Features
 
 - Responsive design that works on desktop and mobile devices
-- Featured property tour video (YouTube embed)
+- InnerLoop video embedding for virtual property tours and walkthroughs
+- InnerLoop image selection for high-quality property visuals
 - Grid of real estate property listings
 - Property details including price, address, bedrooms, bathrooms, and area
+- Interactive media selection allowing users to choose different property views and tours
 
 ## Technologies Used
 
+This project is built with:
+
 - React
 - TypeScript
-- HTML5
-- CSS3
-- Webpack
-- YouTube Embed API
+- CSS/SCSS
+- Create React App
+- InnerLoop Video API
+- InnerLoop Image Selection Components
 
-## Getting Started
+## Development Setup
 
 ### Prerequisites
 
@@ -26,6 +32,8 @@ A React application that showcases real estate properties with a featured proper
 - npm (v6 or higher)
 
 ### Installation
+
+To run this project locally:
 
 1. Clone the repository
 2. Install dependencies:
@@ -51,18 +59,31 @@ A React application that showcases real estate properties with a featured proper
 
 ## Project Structure
 
-- `src/index.html` - The HTML template
-- `src/index.tsx` - The entry point for the React application
-- `src/App.tsx` - The main React component
-- `src/components/` - Directory containing React components
-  - `VideoSection.tsx` - Component for the YouTube video
+- `components/` - Directory containing React components
+  - `Footer.tsx` - Footer component for the application
+  - `HeroSection.tsx` - Hero section component with main property showcase
   - `PropertiesSection.tsx` - Component for the properties grid
   - `PropertyCard.tsx` - Component for individual property cards
-- `src/types.ts` - TypeScript interfaces
-- `src/styles.css` - Global styles
-- `dist/` - The compiled JavaScript and HTML files (generated after build)
+  - `VideoSection.tsx` - Component for property video tours using InnerLoop
+- `App.tsx` - The main React component
+- `index.html` - The HTML template
+- `index.tsx` - The entry point for the React application
+- `styles.css` - Global styles
+- `types.ts` - TypeScript interfaces
+- `.gitignore` - Git ignore configuration
+- `package.json` & `package-lock.json` - NPM package configuration
+- `tsconfig.json` - TypeScript configuration
+- `webpack.config.js` - Webpack configuration
+
+## InnerLoop Media Integration
+
+PropertyPulse leverages InnerLoop's powerful media capabilities to enhance the real estate browsing experience:
+
+- **Video Embedding**: Showcase professional property walkthroughs, drone footage, and neighborhood tours
+- **Image Selection**: Allow users to browse through high-quality images of properties with interactive controls
 
 ## Customization
 
-- To change the featured video, update the `youtubeVideoId` variable in `src/components/VideoSection.tsx`
-- To add or modify property listings, update the `properties` array in `src/components/PropertiesSection.tsx`
+- To modify InnerLoop video settings, adjust the video options in `components/VideoSection.tsx`
+- To configure image properties, update the configuration in `components/HeroSection.tsx`
+- To add or modify property listings, update the properties array in `components/PropertiesSection.tsx`
