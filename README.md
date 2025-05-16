@@ -4,6 +4,10 @@
 
 This project demonstrates how to embed InnerLoop images and videos into a real estate web application. It showcases how media content can be seamlessly integrated within a modern property listing website, allowing users to explore virtual property tours and browse high-quality images.
 
+## Live Demo
+
+Check out the live demo: [PropertyPulse Demo](https://real-estate-showcase.pages.dev/)
+
 ## Features
 
 - Responsive design that works on desktop and mobile devices
